@@ -1,0 +1,8 @@
+- pour éxécuter les composantes C++ du code SHA256 :
+  1) se positionner sur le directory "hash" : -> cd hash
+  2) nettoyer les composantes générées avant de relancer : -> make clear
+  3) compiler le code C++ contenant l'algorithme SHA256 : -> make
+  4) éxécuter le code Python qui fait appel à la composante SHA256 générée auparavant : -> python3 main.py
+  
+   ** le code Python main.py contient l'mport de la librairie qui contient la composante SHA256, initialise le vecteur contenant les chaines de caractères de test, puis réalise une boucle et appelle la fonction de hashage sur tout les éléments de la boucle.
+  
