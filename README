@@ -1,3 +1,6 @@
+Le code main.py fait appel a une seule fonction sha256 qui est hash(). Il ne fait pas appel aux autres : Vesrion() et HashName().
+
+
 - pour éxécuter les composantes C++ du code SHA256 :
   1) se positionner sur le directory "hash" : -> cd hash
   2) nettoyer les composantes générées avant de relancer : -> make clear
