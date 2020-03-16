@@ -3,7 +3,7 @@
 
 #include <cstring>
 #include <fstream>
-#include "interface.h"
+#include "sha256.h"
 #include "hash.h"
 
 const unsigned int SHA256::sha256_k[64] = //UL = uint32
@@ -138,7 +138,7 @@ std::string hash(std::string input)
 
 #include <boost/python.hpp>
 
-BOOST_PYTHON_MODULE(hash)
+BOOST_PYTHON_MODULE(sha256)
 {
   using namespace boost::python;
   def("hash", hash);
